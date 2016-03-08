@@ -1819,7 +1819,7 @@ void interactiveShowData(void) {
             altitude /= 3.2828;
             speed *= 1.852;
         }
-
+        
         printf("%-6s %-8s %-9d %-7d %-7.03f   %-7.03f   %-3d   %-9ld %d sec\n",
             a->hexaddr, a->flight, altitude, speed,
             a->lat, a->lon, a->track, a->messages,
